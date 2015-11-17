@@ -16,7 +16,7 @@ else
     PROMPTCOLOR="" PREFIX="---";
 fi
 
-local return_code="%(?..%{$R%}%? ↵%{$RESET%})"
+local return_code="%(?..%{$R%}%? ↵%{$RESET%})" ref INDEX STATUS
 
 # Get the status of the working tree (copied and modified from git.zsh)
 custom_git_prompt_status() {
